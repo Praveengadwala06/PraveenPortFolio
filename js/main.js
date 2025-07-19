@@ -69,6 +69,7 @@ tabs.forEach((tab) => {
 const swiperArticles = new Swiper(".articles-container", {
   cssMode: true,
   loop: true,
+  slidesPerView: 1,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
