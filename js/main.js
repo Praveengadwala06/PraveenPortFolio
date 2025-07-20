@@ -65,8 +65,8 @@ tabs.forEach((tab) => {
   })
 })
 
-/* Articles swiper */
-const swiperArticles = new Swiper(".articles-container", {
+/* Projects swiper */
+const swiperProjects = new Swiper(".projects-container", {
   cssMode: true,
   loop: true,
   slidesPerView: 1,
